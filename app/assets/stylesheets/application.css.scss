@@ -32,9 +32,14 @@ h1, h2, h3{
   background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }    
 
-//Removal of navbar border
-.navbar {
+//Nav styles
+.navbar{
   border: none;
+}
+
+.navbar-brand{
+  font-family:'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 //Logo and page link & hover color
